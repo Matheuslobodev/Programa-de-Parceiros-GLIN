@@ -10,12 +10,6 @@
 html { font-size: 62.5%;}
 
 
-.nave {
-    background-color: white;
-    padding: 2rem 3rem 7rem;
-    box-shadow: 3px 3px 3px #ccc;
-}
-
    /*background-color: #35A6FF; #35C2FF;*/
 
 
@@ -23,77 +17,6 @@ html { font-size: 62.5%;}
     color:black;
     text-decoration: none;
     font-size: 2.4rem;
-}
-
-.nave h1 {
-    float: left;
-}
-
-.nave ul {
-    float: right;
-    list-style: none;
-}
-
-.nave li {
-    float: left;
-    margin: 0rem 4rem;
-}
-
-li:hover {
-   opacity: 0.6;
-    background-color: rgb(255, 255, 255, 0.2)
-}
-
-.botao {
-    background-color: transparent;
-    border: none;
-    color: #00b1cd;
-    font-size: 3.5rem;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    display: none;
-
-}
-
-button:hover {
-    background-color: rgb(255, 255, 255, 0.2);
-}
-
-@media screen and (max-width: 980px) {
-
-    .botao {
-        display: block;
-        z-index: 999;
-        position: fixed;
-    }
-
-    .ueli {
-        position: fixed;
-        top: 0;
-        right: -100%;
-
-        height: 100vh;
-        margin: 0;
-        background-color: black;
-
-        width: 100%;
-        max-width: 300px;
-
-        padding: 100px 20px;
-
-        flex-direction: column;
-    }
-
-    .ueli.active {
-        right: 0;
-    }
-
-    a {
-        color: white;
-        margin-bottom: 10px;
-    }
-    
 }
 
 .hero-section {
@@ -175,8 +98,8 @@ h3 {
 
 .features .box-container .box {
     flex: 1 1 30rem;
-    background: whitesmoke;
-    border: .1rem solid #F4712D;
+    background: white;
+    border: .2rem solid #F4712D;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     margin: 1.5rem;
     padding: 3rem 2rem;
@@ -258,11 +181,11 @@ h3 {
 .contact form {
     flex: 1 1 40rem;;
     padding: 2rem 3rem;
-    border: .1rem solid #00b1cd;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    border: .2rem solid #00b1cd;
+    box-shadow: 0 .5rem 1rem (0, 0, 0, .1);
     border-radius: .5rem;
     margin-top: 10rem;
-    background: whitesmoke;
+    background: white;
 
 }
 
